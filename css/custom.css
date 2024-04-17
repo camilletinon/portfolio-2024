@@ -105,6 +105,10 @@
 
 @media (max-width: 767px){
 
+    .socialdesktop{
+        display: none;
+    }
+
     .menu-mobile{
         display: block;
     }
@@ -164,7 +168,7 @@
 }
 .cta-underline-mobile{
     display: block;
-    margin-bottom: -3px;
+    margin-bottom: -2px;
 }
 }
 
