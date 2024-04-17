@@ -49,6 +49,10 @@
         line-height: 55px;
     }
 
+    .project-category{
+        margin-top: 3px;
+    }
+
     .images-projet-desktop{
        bottom: 400px;
     WIDTH: 17%;
@@ -61,7 +65,7 @@
 @media only screen and (max-width: 450px){
 
     .showcase-fullscreen-wall .showcase-project a {
-        padding: 0.65em 0;
+        padding: 0.6em 0;
     }
 .elementor-8850 .elementor-element.elementor-element-31ff374 .grid--wrapper {
   grid-template-columns: repeat(2, 1fr);
