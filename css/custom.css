@@ -10,6 +10,9 @@
     display: none;
 }
 
+.menu-mobile{
+    display: none;
+}
 
 .images-projet-desktop{
     position: FIXED;
@@ -36,6 +39,11 @@
     font-size: 9px;
     font-weight: 200;
     letter-spacing: 0.3px;
+}
+
+.cta-underline-mobile{
+    display: none;
+    margin-bottom: -3px;
 }
 
 /* BREAKPOINT INDE DESKTOP */
@@ -97,7 +105,14 @@
 
 @media (max-width: 767px){
 
-    
+    .menu-mobile{
+        display: block;
+    }
+
+    .elementor-element-aeab1c5{
+        display: none;
+    }
+
     .elementor-9389 .elementor-element.elementor-element-4caf870b .project-title {
         font-size: 55px!important;
         line-height: 6px!important;
@@ -142,6 +157,14 @@
 .elementor:not(.elementor-bc-flex-widget) .elementor-widget-wrap {
     display: flex;
     justify-content: center;
+}
+
+#gridpeliculle{
+    margin-bottom: 10px;
+}
+.cta-underline-mobile{
+    display: block;
+    margin-bottom: -3px;
 }
 }
 
