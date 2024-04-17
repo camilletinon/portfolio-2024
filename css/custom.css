@@ -50,7 +50,7 @@
     }
 
     .project-category{
-        margin-top: 3px;
+        margin-top: 5px;
     }
 
     .images-projet-desktop{
@@ -109,7 +109,7 @@
     }
 
     .listport {
-        margin-top: 2.5vh !important;
+        margin-top: 4.5vh !important;
     }
 
     .images-projet-desktop{
@@ -136,7 +136,7 @@
 
   
 .elementor-9389 .elementor-element.elementor-element-35b23151 > .elementor-element-populated {
-    padding: 34px 20px 0px 20px;
+    padding: 24px 20px 0px 20px;
 }
 
 .elementor:not(.elementor-bc-flex-widget) .elementor-widget-wrap {
