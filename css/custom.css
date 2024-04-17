@@ -1,0 +1,140 @@
+.page-loader-percentage .page-loader-count {
+    font-family: Care Free;
+}
+
+.pellicule-body{
+    height: 100vh!important;
+}
+
+.project-image{
+    display: none;
+}
+
+
+.images-projet-desktop{
+    position: FIXED;
+    right: -7vw;
+    bottom: 400px;
+    z-index: 99999;
+    height: max-content;
+    WIDTH: 25%;
+    
+}
+   
+.project-desktop{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.5;
+}
+
+.project-desktop span{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: #000000;
+    font-family: "Pitch Sans", Sans-serif;
+    font-size: 9px;
+    font-weight: 200;
+    letter-spacing: 0.3px;
+}
+
+/* BREAKPOINT INDE DESKTOP */
+@media only screen and (max-width: 1400px){
+    .elementor-9389 .elementor-element.elementor-element-35b23151 > .elementor-element-populated {
+        padding: 0px 0px 0px 105px;
+    }
+
+    .elementor-9389 .elementor-element.elementor-element-4caf870b .project-title {
+        font-size: 70px;
+        line-height: 55px;
+    }
+
+    .images-projet-desktop{
+       bottom: 400px;
+    WIDTH: 17%;
+    right: 10%;
+    }
+}
+
+/* MOBILE PELLICULE */
+
+@media only screen and (max-width: 450px){
+
+.elementor-8850 .elementor-element.elementor-element-31ff374 .grid--wrapper {
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 26px;
+}
+
+.pellicule-body{
+    height: revert!important;
+}
+
+.elementor-8850 .elementor-element.elementor-element-202cc46 {
+    margin-top: 50px;
+}
+
+.cta-brackets{
+    display: none;
+}
+
+.lightbox-gal > img {
+ top: 43%;
+ max-height: 65%;  
+}
+
+.elementor-8850 .elementor-element.elementor-element-b4b1a6b > .elementor-element-populated {
+    padding: 0% 5% 0% 5%;
+}
+
+}
+
+@media (max-width: 767px){
+
+    
+    .elementor-9389 .elementor-element.elementor-element-4caf870b .project-title {
+        font-size: 55px!important;
+        line-height: 6px!important;
+    }
+
+    .elementor-9389 .elementor-element.elementor-element-4caf870b .project-category {
+        font-size: 7px!important;
+        margin-top: 5px!important;
+    }
+
+    .listport {
+        margin-top: 4.5vh !important;
+    }
+
+    .images-projet-desktop{
+        display: none;
+    }
+
+    .elementor-8850 .elementor-element.elementor-element-47f30d0a .elementor-heading-title {
+        font-size: 8px!important;
+        margin-top: 10px;
+    }
+    .elementor-9389 .elementor-element.elementor-element-47f30d0a .elementor-heading-title {
+        font-size: 8px;
+        margin-top: 11px;
+    }
+
+    .project-image{
+        display: block;
+    }
+
+    
+    .elementor-9389 .elementor-element.elementor-element-5e93596e {
+        margin-top: 10%;
+    }
+
+  
+.elementor-9389 .elementor-element.elementor-element-35b23151 > .elementor-element-populated {
+    padding: 34px 20px 34px 20px;
+}
+
+.elementor:not(.elementor-bc-flex-widget) .elementor-widget-wrap {
+    display: flex;
+    justify-content: center;
+}
+}
+
