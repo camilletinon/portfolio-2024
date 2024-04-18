@@ -46,6 +46,9 @@
     margin-bottom: -3px;
 }
 
+span.footer{
+    color: #1D1D1D;
+}
 /* BREAKPOINT INDE DESKTOP */
 @media only screen and (max-width: 1400px){
     .elementor-9389 .elementor-element.elementor-element-35b23151 > .elementor-element-populated {
@@ -67,6 +70,7 @@
     right: 10%;
     }
 }
+
 
 /* MOBILE PELLICULE */
 
@@ -105,6 +109,18 @@
 
 @media (max-width: 767px){
 
+    .cta-brackets{
+        display: none;
+    }
+
+    span.footer{
+        color: #fbfbfb;
+    }
+
+    .footer-mobile{
+        mix-blend-mode: difference;
+    }
+    
     .socialdesktop{
         display: none;
     }
@@ -128,7 +144,7 @@
     }
 
     .listport {
-        margin-top: 4.5vh !important;
+        margin-top: 3.5vh !important;
     }
 
     .images-projet-desktop{
