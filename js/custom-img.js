@@ -1,9 +1,72 @@
-function photoun() {
-    const element = document.getElementById(projet-liste-1);
-    const elementdeux  = document.getElementById(project-image-1);
-    if (element) {
-      element.addEventListener('mouseenter', () => {
-        elementdeux.style.opacity = 1;
-      });
-    }
-  }
+function clinetcover() {
+  document.getElementById("project-image-1").style.opacity = "1";
+  document.getElementById("project-image-2").style.opacity = "0";
+  document.getElementById("project-image-3").style.opacity = "0";
+  document.getElementById("project-image-4").style.opacity = "0";
+  document.getElementById("project-image-5").style.opacity = "0";
+  document.getElementById("project-image-6").style.opacity = "0";
+  document.getElementById("project-image-7").style.opacity = "0";
+  document.getElementById("project-image-8").style.opacity = "0";
+  document.getElementById("project-image-9").style.opacity = "0";
+}
+
+function pichoncover() {
+  document.getElementById("project-image-1").style.opacity = "0";
+  document.getElementById("project-image-2").style.opacity = "1";
+  document.getElementById("project-image-3").style.opacity = "0";
+  document.getElementById("project-image-4").style.opacity = "0";
+  document.getElementById("project-image-5").style.opacity = "0";
+  document.getElementById("project-image-6").style.opacity = "0";
+  document.getElementById("project-image-7").style.opacity = "0";
+  document.getElementById("project-image-8").style.opacity = "0";
+  document.getElementById("project-image-9").style.opacity = "0";
+}
+
+function delozeycover() {
+  document.getElementById("project-image-1").style.opacity = "0";
+  document.getElementById("project-image-2").style.opacity = "0";
+  document.getElementById("project-image-3").style.opacity = "1";
+  document.getElementById("project-image-4").style.opacity = "0";
+  document.getElementById("project-image-5").style.opacity = "0";
+  document.getElementById("project-image-6").style.opacity = "0";
+  document.getElementById("project-image-7").style.opacity = "0";
+  document.getElementById("project-image-8").style.opacity = "0";
+  document.getElementById("project-image-9").style.opacity = "0";
+}
+
+
+function branecover() {
+  document.getElementById("project-image-1").style.opacity = "0";
+  document.getElementById("project-image-2").style.opacity = "0";
+  document.getElementById("project-image-3").style.opacity = "0";
+  document.getElementById("project-image-4").style.opacity = "1";
+  document.getElementById("project-image-5").style.opacity = "0";
+  document.getElementById("project-image-6").style.opacity = "0";
+  document.getElementById("project-image-7").style.opacity = "0";
+  document.getElementById("project-image-8").style.opacity = "0";
+  document.getElementById("project-image-9").style.opacity = "0";
+}
+
+function marinecover() {
+  document.getElementById("project-image-1").style.opacity = "0";
+  document.getElementById("project-image-2").style.opacity = "0";
+  document.getElementById("project-image-3").style.opacity = "0";
+  document.getElementById("project-image-4").style.opacity = "0";
+  document.getElementById("project-image-5").style.opacity = "1";
+  document.getElementById("project-image-6").style.opacity = "0";
+  document.getElementById("project-image-7").style.opacity = "0";
+  document.getElementById("project-image-8").style.opacity = "0";
+  document.getElementById("project-image-9").style.opacity = "0";
+}
+
+function deloncover() {
+  document.getElementById("project-image-1").style.opacity = "0";
+  document.getElementById("project-image-2").style.opacity = "0";
+  document.getElementById("project-image-3").style.opacity = "0";
+  document.getElementById("project-image-4").style.opacity = "0";
+  document.getElementById("project-image-5").style.opacity = "0";
+  document.getElementById("project-image-6").style.opacity = "1";
+  document.getElementById("project-image-7").style.opacity = "0";
+  document.getElementById("project-image-8").style.opacity = "0";
+  document.getElementById("project-image-9").style.opacity = "0";
+}
