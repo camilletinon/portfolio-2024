@@ -1,0 +1,10 @@
+				@font-face {
+					font-family: 'care-free';
+					src: url(./../fonts/8570Care-Free.woff2) format('woff2'),
+						url(./../fonts/8570Care-Free.woff) format('woff');
+					  font-display: auto;
+				}
+
+				.care-free{font-family: 'care-free' !important;}
+
+		
