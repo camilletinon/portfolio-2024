@@ -1,0 +1,93 @@
+.site-main{
+    animation: intro 0.8s ease-in-out;
+}
+
+@keyframes intro{
+from {
+    opacity: 0;
+
+}
+
+to {
+    opacity: 1;
+}
+  }
+
+
+.plyr__video-wrapper {
+    background: transparent!important;
+    background-color: transparent!important;
+}
+
+.nayla-play-button, .plyr button {
+    font-family: "Pitch Sans", Sans-serif!important;
+    font-size: 14px!important;
+    line-height: 12px!important;
+    letter-spacing: 0.7px!important;
+    text-transform: uppercase!important;
+}
+
+.nayla-play-button.play-text {
+    text-decoration: none!important;
+}
+
+.elementor-9636 .elementor-element.elementor-element-260b586 {
+    margin-top: 20%!important;
+    margin-bottom: 20%!important;
+}
+
+
+/* MOBILE */
+
+@media only screen and (max-width: 450px){
+
+    .elementor-9636 .elementor-element.elementor-element-f652af9 .text-wrapper > * {
+
+        font-size: 55px!important;
+        text-align: center;
+   
+    }
+
+    .elementor-9636 .elementor-element.elementor-element-a41ca9c .text-wrapper > * {
+        text-align: center;}
+
+
+    .section-intro{
+        height: 100vh;
+    }
+
+    .container-intro{
+        height: 100vh;
+    }
+
+    .elementor-9636 .elementor-element.elementor-element-35b23151.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated {
+        align-content: end!important;
+    }
+
+    .elementor-9636 .elementor-element.elementor-element-6a60653.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated {
+        align-content: start!important;}
+
+.elementor-9636 .elementor-element.elementor-element-f61a4c8 > .elementor-widget-container {
+        padding: 31% 0% 20% 0%!important;
+    }
+
+.details-instro{
+    display: flex;
+    flex-direction: column;
+}
+
+.details{
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.elementor-9636 .elementor-element.elementor-element-cc7977e{
+    display : none;
+}
+
+.elementor-9636 .elementor-element.elementor-element-3ec6583{
+    display : none;
+} 
+
+
+}
