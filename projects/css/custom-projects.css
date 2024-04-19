@@ -25,6 +25,10 @@
         .liens-mobile{
             display: none;
         }
+
+.pichon-video{
+   display: none;
+}
 @keyframes intro{
 from {
     opacity: 0;
@@ -65,6 +69,11 @@ to {
 }
 
 @media (max-width: 767px){
+
+    .elementor-9636 .elementor-element.elementor-element-2bc4bd2 {
+        margin-top: 30%;
+        margin-bottom: 20%;
+    }
 
     .liens-mobile{
         display: block;
