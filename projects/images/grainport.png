@@ -77,7 +77,18 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 .rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;cursor:pointer;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:72px;width:72px;left:50%;top:50%;margin-left:-36px;margin-top:-36px;position:absolute;background:url(https://camilletinon.fr/wp-content/plugins/rocket-lazy-load/assets/img/youtube.png) no-repeat;cursor:pointer}
 </style>
 <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.5.2' media='all' />
-<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script src="https://camilletinon.fr/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>        <script>
+            /* <![CDATA[ */
+            var rcewpp = {
+                "ajax_url":"https://camilletinon.fr/wp-admin/admin-ajax.php",
+                "nonce": "950ae6140f",
+                "home_url": "https://camilletinon.fr/",
+                "settings_icon": 'https://camilletinon.fr/wp-content/plugins/export-wp-page-to-static-html/admin/images/settings.png',
+                "settings_hover_icon": 'https://camilletinon.fr/wp-content/plugins/export-wp-page-to-static-html/admin/images/settings_hover.png'
+            };
+            /* ]]\> */
+        </script>
+        <script src="https://camilletinon.fr/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
 <script src="https://camilletinon.fr/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
 <script src="https://camilletinon.fr/wp-content/plugins/allow-webp-image/public/js/allow-webp-image-public.js?ver=1.0.1" id="allow-webp-image-js"></script>
 <link rel="https://api.w.org/" href="https://camilletinon.fr/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://camilletinon.fr/xmlrpc.php?rsd" />
@@ -338,7 +349,7 @@ transform: translate(12%)!important;
 
 	.page-loader-percentage {
 		font-size: 100px!important;}}		</style>
-		<style id="pe-redux-dynamic-css" title="dynamic-css" class="redux-options-output">:root{--pgal-image-height:50;--pgal-mobile-width:50;}body{--mainColor:#191919;}body{--mainBackground:#EBEBEB;}body{--secondaryBackground:#BCBCBC;}body.dark{--mainColor:#EBEBEB;}body.dark{--mainBackground:#191919;}body.dark{--secondaryBackground:#191919;}.nayla-page-transition{--backg:transparent!important;}.page-transition-caption{color:#191919;}.page-loader-percentage .page-loader-count{font-family:care-free;font-weight:normal;font-style:normal;}.site-navigation.classic .menu.main-menu > li > a{color:rgba(25, 27, 29, .6)!important;}.site-header .site-navigation.classic .menu.main-menu li.current-menu-item > a{color:#191b1d!important;}.site-header.light .site-navigation.classic .menu.main-menu > li > a{color:hsla(0,0%,100%,.2)!important;}.site-header.light .site-navigation.classic .menu.main-menu li.current-menu-item > a{color:#ffffff!important;}</style><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+		<style id="pe-redux-dynamic-css" title="dynamic-css" class="redux-options-output">:root{--pgal-image-height:50;--pgal-mobile-width:50;}body{--mainColor:#191919;}body{--mainBackground:#EBEBEB;}body{--secondaryBackground:#BCBCBC;}body.dark{--mainColor:#EBEBEB;}body.dark{--mainBackground:#191919;}body.dark{--secondaryBackground:#191919;}.nayla-page-transition{--backg:transparent!important;}.page-transition-caption{color:#191919;}.page-loader-caption{font-family:care-free;font-weight:normal;font-style:normal;}.site-navigation.classic .menu.main-menu > li > a{color:rgba(25, 27, 29, .6)!important;}.site-header .site-navigation.classic .menu.main-menu li.current-menu-item > a{color:#191b1d!important;}.site-header.light .site-navigation.classic .menu.main-menu > li > a{color:hsla(0,0%,100%,.2)!important;}.site-header.light .site-navigation.classic .menu.main-menu li.current-menu-item > a{color:#ffffff!important;}</style><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
 
 <body data-barba="" class="error404 hfeed no-sidebar light elementor-default elementor-template-full-width elementor-kit-566 elementor-page-2287">
     
@@ -349,15 +360,17 @@ transform: translate(12%)!important;
     <!-- Page Loader -->
     <div class="page-loader">
 
-        <div class="page-loader-overlays columns">
+        <div class="page-loader-overlays overlay">
 
-            <span class="loader-col"></span><span class="loader-col"></span><span class="loader-col"></span><span class="loader-col"></span><span class="loader-col"></span>
+            <span class="loader-overlay"></span>
         </div>
 
 
-                <div class="page-loader-percentage"></div>
         
         
+        
+        <div class="page-loader-caption">
+            CAMILLE TINON        </div>
         
 
     </div>
@@ -695,7 +708,7 @@ transform: translate(12%)!important;
 </footer><!-- #footer -->
 </div><!-- #page -->
 
-<link rel='stylesheet' id='redux-custom-fonts-css' href='//camilletinon.fr/wp-content/uploads/redux/custom-fonts/fonts.css?ver=1713452834' media='all' />
+<link rel='stylesheet' id='redux-custom-fonts-css' href='//camilletinon.fr/wp-content/uploads/redux/custom-fonts/fonts.css?ver=1713541222' media='all' />
 <link rel='stylesheet' id='elementor-post-759-css' href='https://camilletinon.fr/wp-content/uploads/elementor/css/post-759.css?ver=1713344433' media='all' />
 <link rel='stylesheet' id='elementor-icons-material-design-icons-css' href='https://camilletinon.fr/wp-content/plugins/material-design-icons-for-elementor/assets/material-icons/css/material-icons-regular.css?ver=1.5.1' media='all' />
 <script id="nayla-elementor-custom-js-extra">
@@ -723,7 +736,7 @@ var wpcf7 = {"api":{"root":"https:\/\/camilletinon.fr\/wp-json\/","namespace":"c
 wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 </script>
 <script id="elementor-pro-frontend-js-before">
-var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/camilletinon.fr\/wp-admin\/admin-ajax.php","nonce":"0a466bc891","urls":{"assets":"https:\/\/camilletinon.fr\/wp-content\/plugins\/pro-elements\/assets\/","rest":"https:\/\/camilletinon.fr\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"fr_FR","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/camilletinon.fr\/wp-content\/plugins\/pro-elements\/modules\/lottie\/assets\/animations\/default.json"}};
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/camilletinon.fr\/wp-admin\/admin-ajax.php","nonce":"8bf9d5fd71","urls":{"assets":"https:\/\/camilletinon.fr\/wp-content\/plugins\/pro-elements\/assets\/","rest":"https:\/\/camilletinon.fr\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"fr_FR","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/camilletinon.fr\/wp-content\/plugins\/pro-elements\/modules\/lottie\/assets\/animations\/default.json"}};
 </script>
 <script src="https://camilletinon.fr/wp-content/plugins/pro-elements/assets/js/frontend.min.js?ver=3.20.2" id="elementor-pro-frontend-js"></script>
 <script src="https://camilletinon.fr/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
@@ -807,4 +820,4 @@ var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false
 </html>
 
 
-<!-- Page cached by LiteSpeed Cache 6.1 on 2024-04-18 15:07:14 -->
+<!-- Page cached by LiteSpeed Cache 6.1 on 2024-04-19 15:40:22 -->
