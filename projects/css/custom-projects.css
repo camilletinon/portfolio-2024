@@ -59,13 +59,17 @@ to {
 }
 
 .elementor-9636 .elementor-element.elementor-element-260b586 {
-    margin-top: 20%!important;
-    margin-bottom: 20%!important;
+    margin-top: 15%!important;
+    margin-bottom: 15%!important;
 }
 
 .cta-underline-mobile{
     display: none;
     margin-bottom: -3px;
+}
+
+.delozey-introp {
+    background-image: url(./../images/delozeycover.png)!important;
 }
 
 @media (max-width: 767px){
